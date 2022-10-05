@@ -2,6 +2,8 @@
 
 A simple web API for link shortening
 
+[![GitHub](https://img.shields.io/github/license/ret0rn/urlCutter?style=plastic)](https://github.com/ret0rn/urlCutter/blob/main/LICENSE) [![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/ret0rn/urlCutter?style=plastic)](https://github.com/ret0rn/urlCutter/blob/main/go.mod)
+
 ## Set Up
 
 
