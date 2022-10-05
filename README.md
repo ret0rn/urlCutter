@@ -21,6 +21,11 @@ dokcer-compose up
 
 ## Usage
 
+|Endpoint         | Method    | Params               | Description|
+|:---------------:|:---------:|:--------------------:|------------|
+|```/generate```  | ```POST```| ```long_url: <str>```| Generates a short url 
+|```/:short_url```| ```GET``` | None                 | Find long url and redirect
+
 ### Request
 
 <img src="https://i.imgur.com/AWL5NTs.jpg" alt="generate short url">
