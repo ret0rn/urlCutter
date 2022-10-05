@@ -1,0 +1,8 @@
+{
+	"db_host": "database",
+	"db_port": "5432",
+	"db_user": "postgres",
+	"db_password": "1234",
+	"db_name": "url_cutter",
+	"sslmode": "disable"
+}

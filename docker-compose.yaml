@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - 8070:8070
+    restart: on-failure
+    depends_on:
+      - database
+
+  database:
+    restart: always
+    image: postgres:latest
+    volumes:
+      - ./db/postgres/data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: "url_cutter"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "1234"
